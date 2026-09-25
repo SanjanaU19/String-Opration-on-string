@@ -79,3 +79,9 @@ print(s20.count("a"))  #3
 
 s21 = "Python"
 print(s21.zfill(10)) # 0000Python 
+
+s22 = "Unsuccessfull"
+print(s22.removeprefix("Un")) # successfull
+
+s23 = "Sucessfull"
+print(s23.removesuffix("full")) #Success
