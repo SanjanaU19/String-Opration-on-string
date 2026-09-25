@@ -20,6 +20,8 @@ print(s3.title()) # used to make 1st letter of word into upperCase
 
 s3 = "    welcome to the python          "
 print(s3.strip())  # remove space from both sides
+print(s3.rstrip()) # remove trailing spaces
+print(s3.lstrip())  # remove leading spaces
 
 name = "Python"
 print(name.replace("Python","Sanjana"))  # replace whole word
@@ -71,3 +73,9 @@ print(s18.isalnum())  # true
 
 s19 = "python1244$"
 print(s19.isalnum())  # false
+
+s20 = "Sanjana"
+print(s20.count("a"))  #3
+
+s21 = "Python"
+print(s21.zfill(10)) # 0000Python 
